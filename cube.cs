@@ -13,6 +13,6 @@ public class SCri : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(5f*Input.GetAxis("Horizontal") * Time.deltaTime, 0f, 5f*Input.GetAxis("Vertical") * Time.deltaTime);
+        transform.Translate(3f*Input.GetAxis("Horizontal") * Time.deltaTime, 0f, 5f*Input.GetAxis("Vertical") * Time.deltaTime);
     }
 }
